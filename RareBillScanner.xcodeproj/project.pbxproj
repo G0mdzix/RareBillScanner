@@ -3,22 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B87BD6552CCADCEB0095CB0D /* RareBillScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD6542CCADCEB0095CB0D /* RareBillScannerApp.swift */; };
-		B87BD6572CCADCEB0095CB0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD6562CCADCEB0095CB0D /* ContentView.swift */; };
+		B87BD6552CCADCEB0095CB0D /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD6542CCADCEB0095CB0D /* MainApp.swift */; };
 		B87BD6592CCADCEC0095CB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87BD6582CCADCEC0095CB0D /* Assets.xcassets */; };
 		B87BD65C2CCADCEC0095CB0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87BD65B2CCADCEC0095CB0D /* Preview Assets.xcassets */; };
+		B87BD6672CCAE1ED0095CB0D /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = B87BD6662CCAE1ED0095CB0D /* swiftlint.yml */; };
+		B87BD6792CCD4B390095CB0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD6782CCD4B390095CB0D /* AppDelegate.swift */; };
+		B87BD67B2CCD4B470095CB0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD67A2CCD4B470095CB0D /* SceneDelegate.swift */; };
+		B87BD67F2CCD4C010095CB0D /* DependencyServises.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD67E2CCD4C010095CB0D /* DependencyServises.swift */; };
+		B8A877E42CDA5AD7008FFE88 /* RBSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A877E32CDA5ACE008FFE88 /* RBSTabBar.swift */; };
+		B8A877E62CDA5D7D008FFE88 /* Notification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A877E52CDA5D78008FFE88 /* Notification.Name.swift */; };
+		B8A877EB2CDA5FB6008FFE88 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A877EA2CDA5FB5008FFE88 /* View.swift */; };
+		B8A877ED2CDA990B008FFE88 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A877EC2CDA9906008FFE88 /* SettingViewModel.swift */; };
+		B8A877F12CDA9A77008FFE88 /* SettingsMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A877F02CDA9A6F008FFE88 /* SettingsMenuModel.swift */; };
+		B8A877F32CDAAACF008FFE88 /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A877F22CDAAACA008FFE88 /* ScannerViewModel.swift */; };
+		B8EFA0072CCD4E9500CC0DF5 /* FunctionalitySwiftEnhancement in Frameworks */ = {isa = PBXBuildFile; productRef = B8EFA0062CCD4E9500CC0DF5 /* FunctionalitySwiftEnhancement */; };
+		B8EFA00A2CCD50BD00CC0DF5 /* AestheticKit in Frameworks */ = {isa = PBXBuildFile; productRef = B8EFA0092CCD50BD00CC0DF5 /* AestheticKit */; };
+		B8EFA00D2CCD5ABE00CC0DF5 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFA00C2CCD5ABE00CC0DF5 /* TabBarView.swift */; };
+		B8EFA0122CCD5AFB00CC0DF5 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFA0112CCD5AFB00CC0DF5 /* DashboardView.swift */; };
+		B8EFA0142CCD5B0A00CC0DF5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFA0132CCD5B0A00CC0DF5 /* SettingsView.swift */; };
+		B8EFA0162CCD5B1400CC0DF5 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFA0152CCD5B1400CC0DF5 /* ScannerView.swift */; };
+		B8EFA0182CCD5CFA00CC0DF5 /* TabEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFA0172CCD5CFA00CC0DF5 /* TabEnum.swift */; };
+		B8EFA01E2CCD91E500CC0DF5 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFA01D2CCD91E500CC0DF5 /* ThemeView.swift */; };
+		B8EFA0202CCD91EB00CC0DF5 /* ThemeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFA01F2CCD91EB00CC0DF5 /* ThemeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B87BD6512CCADCEB0095CB0D /* RareBillScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RareBillScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B87BD6542CCADCEB0095CB0D /* RareBillScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RareBillScannerApp.swift; sourceTree = "<group>"; };
-		B87BD6562CCADCEB0095CB0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B87BD6542CCADCEB0095CB0D /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		B87BD6582CCADCEC0095CB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B87BD65B2CCADCEC0095CB0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B87BD6662CCAE1ED0095CB0D /* swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftlint.yml; sourceTree = "<group>"; };
+		B87BD6782CCD4B390095CB0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B87BD67A2CCD4B470095CB0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B87BD67E2CCD4C010095CB0D /* DependencyServises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyServises.swift; sourceTree = "<group>"; };
+		B8A877E32CDA5ACE008FFE88 /* RBSTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBSTabBar.swift; sourceTree = "<group>"; };
+		B8A877E52CDA5D78008FFE88 /* Notification.Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.Name.swift; sourceTree = "<group>"; };
+		B8A877EA2CDA5FB5008FFE88 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		B8A877EC2CDA9906008FFE88 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		B8A877F02CDA9A6F008FFE88 /* SettingsMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenuModel.swift; sourceTree = "<group>"; };
+		B8A877F22CDAAACA008FFE88 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		B8EFA00C2CCD5ABE00CC0DF5 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		B8EFA0112CCD5AFB00CC0DF5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B8EFA0132CCD5B0A00CC0DF5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B8EFA0152CCD5B1400CC0DF5 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		B8EFA0172CCD5CFA00CC0DF5 /* TabEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabEnum.swift; sourceTree = "<group>"; };
+		B8EFA01D2CCD91E500CC0DF5 /* ThemeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		B8EFA01F2CCD91EB00CC0DF5 /* ThemeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EFA00A2CCD50BD00CC0DF5 /* AestheticKit in Frameworks */,
+				B8EFA0072CCD4E9500CC0DF5 /* FunctionalitySwiftEnhancement in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +87,12 @@
 		B87BD6532CCADCEB0095CB0D /* RareBillScanner */ = {
 			isa = PBXGroup;
 			children = (
-				B87BD6542CCADCEB0095CB0D /* RareBillScannerApp.swift */,
-				B87BD6562CCADCEB0095CB0D /* ContentView.swift */,
-				B87BD6582CCADCEC0095CB0D /* Assets.xcassets */,
+				B87BD67C2CCD4BDF0095CB0D /* Services */,
+				B87BD6662CCAE1ED0095CB0D /* swiftlint.yml */,
+				B87BD6772CCD4AFC0095CB0D /* Extensions */,
+				B87BD6762CCD4AEC0095CB0D /* Resources */,
+				B87BD6752CCD4AE30095CB0D /* Views */,
+				B87BD6742CCD4AD30095CB0D /* App */,
 				B87BD65A2CCADCEC0095CB0D /* Preview Content */,
 			);
 			path = RareBillScanner;
@@ -65,6 +104,123 @@
 				B87BD65B2CCADCEC0095CB0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B87BD6742CCD4AD30095CB0D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B87BD6542CCADCEB0095CB0D /* MainApp.swift */,
+				B87BD6782CCD4B390095CB0D /* AppDelegate.swift */,
+				B87BD67A2CCD4B470095CB0D /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B87BD6752CCD4AE30095CB0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFA0102CCD5AE900CC0DF5 /* Scanner */,
+				B8EFA00F2CCD5AD900CC0DF5 /* Settings */,
+				B8EFA00E2CCD5ACD00CC0DF5 /* Dashboard */,
+				B8EFA00B2CCD5AAC00CC0DF5 /* TabBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B87BD6762CCD4AEC0095CB0D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B87BD6582CCADCEC0095CB0D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B87BD6772CCD4AFC0095CB0D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8A877EA2CDA5FB5008FFE88 /* View.swift */,
+				B8A877E52CDA5D78008FFE88 /* Notification.Name.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B87BD67C2CCD4BDF0095CB0D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B87BD67D2CCD4BE60095CB0D /* DependencyServises */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B87BD67D2CCD4BE60095CB0D /* DependencyServises */ = {
+			isa = PBXGroup;
+			children = (
+				B87BD67E2CCD4C010095CB0D /* DependencyServises.swift */,
+			);
+			path = DependencyServises;
+			sourceTree = "<group>";
+		};
+		B8A877E22CDA5A83008FFE88 /* RBSTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B8A877E32CDA5ACE008FFE88 /* RBSTabBar.swift */,
+			);
+			path = RBSTabBar;
+			sourceTree = "<group>";
+		};
+		B8EFA00B2CCD5AAC00CC0DF5 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B8A877E22CDA5A83008FFE88 /* RBSTabBar */,
+				B8EFA00C2CCD5ABE00CC0DF5 /* TabBarView.swift */,
+				B8EFA0172CCD5CFA00CC0DF5 /* TabEnum.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B8EFA00E2CCD5ACD00CC0DF5 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFA0112CCD5AFB00CC0DF5 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		B8EFA00F2CCD5AD900CC0DF5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFA01C2CCD91C000CC0DF5 /* ThemeView */,
+				B8EFA01B2CCD91B500CC0DF5 /* SettingsView */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B8EFA0102CCD5AE900CC0DF5 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				B8A877F22CDAAACA008FFE88 /* ScannerViewModel.swift */,
+				B8EFA0152CCD5B1400CC0DF5 /* ScannerView.swift */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		B8EFA01B2CCD91B500CC0DF5 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				B8A877F02CDA9A6F008FFE88 /* SettingsMenuModel.swift */,
+				B8A877EC2CDA9906008FFE88 /* SettingViewModel.swift */,
+				B8EFA0132CCD5B0A00CC0DF5 /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		B8EFA01C2CCD91C000CC0DF5 /* ThemeView */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFA01F2CCD91EB00CC0DF5 /* ThemeViewModel.swift */,
+				B8EFA01D2CCD91E500CC0DF5 /* ThemeView.swift */,
+			);
+			path = ThemeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +239,10 @@
 			dependencies = (
 			);
 			name = RareBillScanner;
+			packageProductDependencies = (
+				B8EFA0062CCD4E9500CC0DF5 /* FunctionalitySwiftEnhancement */,
+				B8EFA0092CCD50BD00CC0DF5 /* AestheticKit */,
+			);
 			productName = RareBillScanner;
 			productReference = B87BD6512CCADCEB0095CB0D /* RareBillScanner.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +271,11 @@
 				Base,
 			);
 			mainGroup = B87BD6482CCADCEB0095CB0D;
+			packageReferences = (
+				B87BD66B2CCAF3040095CB0D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+				B8EFA0052CCD4E9400CC0DF5 /* XCLocalSwiftPackageReference "../FunctionalitySwiftEnhancement" */,
+				B8EFA0082CCD50BD00CC0DF5 /* XCLocalSwiftPackageReference "../AestheticKit" */,
+			);
 			productRefGroup = B87BD6522CCADCEB0095CB0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B87BD65C2CCADCEC0095CB0D /* Preview Assets.xcassets in Resources */,
+				B87BD6672CCAE1ED0095CB0D /* swiftlint.yml in Resources */,
 				B87BD6592CCADCEC0095CB0D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +303,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B87BD6572CCADCEB0095CB0D /* ContentView.swift in Sources */,
-				B87BD6552CCADCEB0095CB0D /* RareBillScannerApp.swift in Sources */,
+				B8EFA0182CCD5CFA00CC0DF5 /* TabEnum.swift in Sources */,
+				B8EFA0162CCD5B1400CC0DF5 /* ScannerView.swift in Sources */,
+				B8A877EB2CDA5FB6008FFE88 /* View.swift in Sources */,
+				B8A877F32CDAAACF008FFE88 /* ScannerViewModel.swift in Sources */,
+				B87BD6792CCD4B390095CB0D /* AppDelegate.swift in Sources */,
+				B8EFA0142CCD5B0A00CC0DF5 /* SettingsView.swift in Sources */,
+				B87BD6552CCADCEB0095CB0D /* MainApp.swift in Sources */,
+				B8A877E42CDA5AD7008FFE88 /* RBSTabBar.swift in Sources */,
+				B8EFA0122CCD5AFB00CC0DF5 /* DashboardView.swift in Sources */,
+				B87BD67B2CCD4B470095CB0D /* SceneDelegate.swift in Sources */,
+				B8A877F12CDA9A77008FFE88 /* SettingsMenuModel.swift in Sources */,
+				B8EFA00D2CCD5ABE00CC0DF5 /* TabBarView.swift in Sources */,
+				B8A877ED2CDA990B008FFE88 /* SettingViewModel.swift in Sources */,
+				B8EFA0202CCD91EB00CC0DF5 /* ThemeViewModel.swift in Sources */,
+				B8A877E62CDA5D7D008FFE88 /* Notification.Name.swift in Sources */,
+				B8EFA01E2CCD91E500CC0DF5 /* ThemeView.swift in Sources */,
+				B87BD67F2CCD4C010095CB0D /* DependencyServises.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +525,39 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B8EFA0052CCD4E9400CC0DF5 /* XCLocalSwiftPackageReference "../FunctionalitySwiftEnhancement" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../FunctionalitySwiftEnhancement;
+		};
+		B8EFA0082CCD50BD00CC0DF5 /* XCLocalSwiftPackageReference "../AestheticKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../AestheticKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B87BD66B2CCAF3040095CB0D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = exactVersion;
+				version = 0.57.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B8EFA0062CCD4E9500CC0DF5 /* FunctionalitySwiftEnhancement */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FunctionalitySwiftEnhancement;
+		};
+		B8EFA0092CCD50BD00CC0DF5 /* AestheticKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AestheticKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B87BD6492CCADCEB0095CB0D /* Project object */;
 }
